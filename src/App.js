@@ -53,7 +53,7 @@ function App() {
             placeholder="Enter city/town..."
             onChange={(e) => setSearch(e.target.value)}
           />
-          <button onClick={searchPressed}>Search</button>
+          <button onClick={searchPressed}>Search here</button>
         </div>
 
         {loader && <CircularProgress />}
